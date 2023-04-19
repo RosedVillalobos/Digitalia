@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     transition: 0.2s;
+    font-size: 17px;
 }
 
 * {
