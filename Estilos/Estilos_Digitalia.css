@@ -421,7 +421,50 @@ html {
       .box a:hover {
         background-color: yellowgreen;
       }
-      
+  /* <------------------------------------Formulario suscripcion--------------------------------------> */
+.formulario1{
+      border: 1px solid lightblue;
+      margin: 0 auto;
+      max-width: 400px;
+      padding: 20px;
+  }
+.formularioestilo{
+    margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+
+select {
+    border: 1px solid #7689EE;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+}
+.box1 p {
+  margin: 10px;
+  text-align: center;
+}
+
+.box1 a {
+  display: inline-block;
+  background-color:blueviolet;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+.box1 a:hover {
+  background-color: yellowgreen;
+}     
       
     
  /* <---------------------main movil --------------------> */
@@ -440,6 +483,11 @@ html {
             }
           
                   }
+
+
+
+
+
 
     /* <------------------------------------Footer--------------------------------------> */
     footer{
