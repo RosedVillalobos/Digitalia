@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Suscripción</title>
-    <img src="../Gallery/logo_provisional.png" alt="Nuestro logo">
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Blog | Digitalia, todo sobre tecnología digital</title>
+  	<link rel="stylesheet" href="../Estilos/Estilos_Digitalia.css">
+    
+  	<script src="https://kit.fontawesome.com/3aceae23f8.js" crossorigin="anonymous"></script>
+        <script defer src="../Estilos/index.js"></script>
+      
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&family=Satisfy&display=swap');
+       </style>
+    <style>
+   body {background-color:#fcfce0;}
+
+  </style>
+  
+ </head> 
 <body>
     <header>
-        <h2>Subscribete a nuestro Blog</h2>
+       	<div class="header">
+        <nav class="topnav">
+          <a href="index_Digitalia.html" class="logo"><img src="../Gallery/compress/logo_Digitalia.png" width="60%"  alt="Logo Digitalia"></a>
+          
+            <a href="index_Digitalia.html" class="logo-movil">Digitalia</a>
+          
+          <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+         </button>
+            <ul class="nav-menu">
+
+          <li class="nav-menu-item"><a href="index_Digitalia.html" class="nav-menu-link">Home</a></li>
+          <li class="nav-menu-item"><a href="Blog_Digitalia.html" class="nav-menu-link">Blog</a></li>
+          <li class="nav-menu-item"><a href="Portafolio_PF_JUMP.html" class="nav-menu-link">Portafolio</a></li>
+          <li class="nav-menu-item"><a href="Suscripcion_PF_JUMP.html" class="nav-menu-link">Suscripción</a></li>
+          <li class="nav-menu-item"><a href="Recursos_PF_JUMP.html" class="nav-menu-link">Recursos</a></li>
+
+       </ul>
+      </div>
+    </nav>
+  </div>
     </header>
-    <div>
-        <nav>
-          <ul>
-         <li><a href="Index_PF_JUMP.html">Volver a Home</a></li>
-          </ul>
-        </nav>
-     </div>
-    <section>
-        <p>Si has llegado hasta aqui es porque quieres estar al tanto de las noticias y contenidos compartidos en este blog.</p>
-        <p>Te invitamos a completar el sisguiente formulario</p>
-    </section>
-	<section>
-        <form>
+        <p class= "paragraph1">Si has llegado hasta aqui es porque quieres estar al tanto de las noticias y contenidos compartidos en este blog.</p>
+<fieldset class="formulario1">
+        <h2 class="title"> Te invitamos a completar el siguiente formulario</>
+	
+       <form>
+	<div class=" formularioestilo">
             <label for="nombre">Nombres:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
             <label for="email">Email:</label>
@@ -60,14 +88,49 @@
                 <option value="Empleado">Empleado</option>
                 <option value="Estudiante">Estudiante</option>
                 <option value="Otro">Otro</option>
-            </select><br><br>
+            </div>
 
             <input type="checkbox"><label for="autorizacion">Sí, acepto las políticas de privacidad del blog, asi mismo, recibir noticias y contenidos.</label><br><br>
-            <input type="submit" value="Enviar">
+            <input  class="box1"type="submit" value="Enviar">
         </form>
-    </section>
+    </fieldset>
+     <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">Digitalia</h3>
+                <span class="footer-info">300 111 222</span>
+                <span class="footer-info">digitaliainfo@gmail.com</span>
+            </div>       
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">Links importantes</span>
+                    <a href="Index_PF_JUMP.html" class="menu-item-footer">Home</a>
+                    <a href="Blog_PF_JUMP.html" class="menu-item-footer">Blog</a>
+                    <a href="Suscripcion_PF_JUMP.html" class="menu-item-footer">Suscripción</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">Legal</span>
+                    <a href="#" class="menu-item-footer">Política de privacidad</a>
+                    <a href="#" class="menu-item-footer">Cookies</a>
+                    <a href="#" class="menu-item-footer">Términos y condiciones</a>
+                </div>
+            </div>     
+      
+            <div class="footer-content-container">
+                <span class="menu-title">Síguenos</span>
+                <div class="social-container">
+                    <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384005.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384015.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com"><img src="https://cdn-icons-png.flaticon.com/32/1384/1384014.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright">&copy;2023 Todos los derechos reservados.</span>
+        </div>
+      </footer>
 </body>
 </html>
 
-</body>
+
 </html>
